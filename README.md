@@ -20,13 +20,13 @@ from sklearn.linear_model import LinearRegression
 from sklearn.metrics import mean_absolute_error
 ```
 
-Fonctionnalités
-Chargement des Données : Les données sont chargées à partir d'un fichier CSV contenant des informations sur les pays, les médailles gagnées, le nombre d'athlètes, et leur âge.
-Prétraitement des Données : Les données sont nettoyées et préparées pour l'analyse, y compris le traitement des valeurs manquantes et la normalisation des données si nécessaire.
-Séparation des Données : Les données sont divisées en ensembles d'entraînement et de test.
-Création du Modèle : Un modèle de régression linéaire est créé à l'aide de Scikit-learn.
-Entraînement du Modèle : Le modèle est entraîné sur l'ensemble d'entraînement.
-Prédiction et Évaluation : Les prédictions sont effectuées sur l'ensemble de test et l'erreur absolue moyenne (MAE) est calculée pour évaluer la performance du modèle.
+## Fonctionnalités
+-**Chargement des Données** : Les données sont chargées à partir d'un fichier CSV contenant des informations sur les pays, les médailles gagnées, le nombre d'athlètes, et leur âge.
+-**Prétraitement des Données** : Les données sont nettoyées et préparées pour l'analyse, y compris le traitement des valeurs manquantes et la normalisation des données si nécessaire.
+-**Séparation des Données** : Les données sont divisées en ensembles d'entraînement et de test.
+-**Création du Modèle** : Un modèle de régression linéaire est créé à l'aide de Scikit-learn.
+-**Entraînement du Modèle** : Le modèle est entraîné sur l'ensemble d'entraînement.
+-**Prédiction et Évaluation** : Les prédictions sont effectuées sur l'ensemble de test et l'erreur absolue moyenne (MAE) est calculée pour évaluer la performance du modèle.
 
-Résultats
+## Résultats
 Après l'exécution du projet, le nombre prédit de médailles sera affiché, accompagné de l'erreur absolue moyenne calculée, permettant ainsi d'évaluer la précision des prédictions.
