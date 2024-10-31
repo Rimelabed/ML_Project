@@ -18,6 +18,7 @@ import numpy as np
 from sklearn.model_selection import train_test_split
 from sklearn.linear_model import LinearRegression
 from sklearn.metrics import mean_absolute_error
+```
 
 Fonctionnalités
 Chargement des Données : Les données sont chargées à partir d'un fichier CSV contenant des informations sur les pays, les médailles gagnées, le nombre d'athlètes, et leur âge.
